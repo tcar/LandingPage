@@ -1,5 +1,170 @@
-section
-{
-    border: 1px solid black;
-    width: 70%
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto
+}
+.head{
+    height: 100vh
+}
+header{
+    height: 100vh;
+    background-image: url("./development/blur-blurred-background-colors-754082.jpg");
+    background-size: cover
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h1{
+    font-size: 4em;
+    color: white;
+    text-transform: uppercase;
+}
+.head p{
+    font-size: 2em;
+    color: white;
+    opacity: 0.5;
+}
+.divider {
+    width: 50px;
+    border-bottom: 5px solid orange;
+    margin: auto
+  }
+
+  .button1{
+    border-radius: 35px;
+    border:1px solid gray;
+    padding: 15px 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1em;
+    background: #2b6bd1;
+    cursor: pointer;
+  }
+
+  nav{
+    display: flex;
+    color: white;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-weight: bolder;
+    justify-content: space-between
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+  }
+
+  nav ul li{
+    padding: 15px;
+    cursor: pointer;
+  }
+  nav ul li:hover{
+      background: white;
+      color:black;
+      opacity: 0.5;
+  }
+
+  /*ABOUT */
+
+  .about{
+      background-color: #2b6bd1
+  }
+  .about-content h2{
+    font-size: 2em;
+    color:white;
+  }
+  .about-content p{
+      color: white;
+      font-weight: bold;
+      font-size: 1em;
+      opacity: 0.5;
+  }
+
+  .about-content{
+    display: flex;
+    flex-direction: column;
+      padding: 160px;
+  }
+
+  .divider2 {
+    width: 50px;
+    border-top: 5px solid black;
+    margin: auto;
+  }
+
+  /*SKILLS*/
+
+  .skill-content{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .skills{
+      display: flex;
+  }
+  .skill{
+    flex-basis: 25%;
+  }
+
+/* PORTFOLIO */
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project{
+    border:1px solid black;
+    flex-basis: 33%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    cursor: pointer;
+}
+
+.project:hover{
+    background-color: black;
+    opacity: 0.5;
+    color:white;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 320px
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    text-align: center;
+    
+}
+.content1 img{
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px
+}
+
+
+
+/*GENERAL*/
+
+ p,h1,h2,h3,h4,h5{
+    opacity: 0.5;
 }
